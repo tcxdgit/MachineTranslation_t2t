@@ -9,8 +9,7 @@ Neural Machine Translation (Chinese-to-English) for AI_Challenger dataset.
 - tensor2tensor 1.10.0
 - jieba 0.39
 - tensorflow-hub 0.4.0
-
-For reference, we used the 1.8.0 version of tensor2tensor, the 9.0.176 version of cuda, and the 7.0.5 version of cudnn.
+- tensorflow_serving_api 
 
 # Prepare Data
 1. Download the dataset and put the dataset in ***raw_data*** file
@@ -34,7 +33,9 @@ Run the inference script
 # 导出模型
 ./export_model.sh
 
-# 启动服务端(需要安装tensorflow serving)
+# 启动服务端
+(需要安装tensorflow serving，安装方式https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/setup.md)
+
 ./server.sh
 
 # 启动客户端

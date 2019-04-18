@@ -1,5 +1,11 @@
 processed_data/
-train/t2t_data
 train/t2t_train
-
-
+translate_zhen_ai-*-*-of-*
+*.tgz
+*.zip
+*.rar
+*.lang1
+*.lang2
+*.zh
+*.en
+vocab.*

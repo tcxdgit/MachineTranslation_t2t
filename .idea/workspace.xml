@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="685ca82c-f22e-4d96-ab43-665825b338e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/train/prepare_cisco.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MachineTranslation_t2t.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MachineTranslation_t2t.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_wmt_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/get_wmt_data.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/client.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/client.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/eval.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/eval.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/export_model.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/export_model.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/infer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/infer.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/jieba_cws.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/jieba_cws.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ca" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.cs" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.de" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.el" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.el" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.en" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.en" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.es" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.es" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.fr" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.fr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.hu" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.hu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.is" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.is" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.it" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.it" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.lv" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.lv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.nl" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.nl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.pl" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.pl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.pt" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ro" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ru" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.sk" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.sk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.sl" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.sl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.sv" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.sv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/tokenizer.perl" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/tokenizer.perl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/prepare_data/unwrap_xml.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/prepare_data/unwrap_xml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/self_infer.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/self_infer.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/self_prepare.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/self_prepare.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/self_query.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/self_query.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/self_run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/self_run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/self_script/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/self_script/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/self_script/translate_zhen_ai.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/self_script/translate_zhen_ai.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train/server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/train/server.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +12,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train/prepare_data/jieba_cws.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding>
                 <element signature="e#35#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train/prepare_cisco.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -89,16 +55,7 @@
         <entry file="file://$PROJECT_DIR$/train/server.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train/t2t_train/transformer-transformer_base/hparams.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -213,19 +170,6 @@
             </path>
             <path>
               <item name="MachineTranslation_t2t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineTranslation_t2t" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
-              <item name="t2t_train" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineTranslation_t2t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineTranslation_t2t" type="462c0819:PsiDirectoryNode" />
-              <item name="train" type="462c0819:PsiDirectoryNode" />
-              <item name="t2t_train" type="462c0819:PsiDirectoryNode" />
-              <item name="transformer-transformer_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MachineTranslation_t2t" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -242,7 +186,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data_process" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -273,18 +217,17 @@
       <workItem from="1556096321313" duration="22000" />
       <workItem from="1557136946569" duration="16238000" />
       <workItem from="1557304756785" duration="1191000" />
-      <workItem from="1557712787191" duration="2144000" />
+      <workItem from="1557712787191" duration="4085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33679000" />
+    <option name="totallyTimeSpent" value="35620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1410" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20087859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124201275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,7 +241,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3282504" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22311397" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3812199" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3282504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -428,20 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train/prepare_cisco.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train/self_script/translate_zhen_ai.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train/self_run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -470,24 +399,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train/server.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/processed_data/ai_challenger_MTEnglishtoChinese_testset_20190228.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.ca">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/prepare_data/share/nonbreaking_prefixes/nonbreaking_prefix.en">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1747" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/prepare_data/jieba_cws.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#35#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -498,13 +438,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train/prepare_data/jieba_cws.py">
+    <entry file="file://$PROJECT_DIR$/train/server.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#35#45#0" expanded="true" />
-          </folding>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/self_script/translate_zhen_ai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train/prepare_cisco.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
 
 Neural Machine Translation (Chinese-to-English) for AI_Challenger dataset.
 
-# Requirenments
+# Requirements
 
 - python 3.6
 - TensorFlow 1.12.0
@@ -10,6 +10,8 @@ Neural Machine Translation (Chinese-to-English) for AI_Challenger dataset.
 - jieba 0.39
 - tensorflow-hub 0.4.0
 - tensorflow_serving_api 
+
+pip install -r requirements
 
 # Prepare Data
 1. Download the dataset and put the dataset in ***processed_data*** file

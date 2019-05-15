@@ -36,3 +36,5 @@ python prepare_data/jieba_cws.py ${DATA_DIR}/test.zh > ${DATA_DIR}/test_wc.zh
 cat ${TMP_DIR}/train.en | prepare_data/tokenizer.perl -l en > ${DATA_DIR}/train_wc.en
 cat ${DATA_DIR}/valid.en | prepare_data/tokenizer.perl -l en > ${DATA_DIR}/valid_wc.en
 cat ${DATA_DIR}/test.en | prepare_data/tokenizer.perl -l en > ${DATA_DIR}/test_wc.en
+
+

@@ -4,6 +4,13 @@
 import sys
 import jieba
 
+exception = ['EMAIL_SUBJECT', '|BE_NAME|', '|PROGRAM_NAME|', 'EMAIL_BODY', '|PARTNER_NAME|',
+             '|REROUTED_USER|', '|ENROLLMENT_ID|', '|GRACE_DAYS|', '|NEXT_APPROVER|', '|SLA|',
+             '|EXP_DATE|', '|GRACE_DAYS|', '|EXP_DATE|', '|SLA_NEXT|', '|COMMENTS|']
+
+for e in exception:
+    jieba.add_word(e)
+
 
 def jieba_cws(string):
     seg_list = jieba.cut(string.strip())   # .decode('utf8')

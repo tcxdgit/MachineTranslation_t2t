@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="205/tcx-t2t">
+  <component name="PublishConfigData" autoUpload="Always">
     <serverData>
-      <paths name="205/tcx-t2t">
+      <paths name="3.2.1.10">
         <serverdata>
           <mappings>
-            <mapping deploy="/MachineTranslation_t2t" local="$PROJECT_DIR$" />
+            <mapping deploy="/MachineTranslation_t2t" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="33903">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="33905">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/MachineTranslation_t2t" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -16,10 +30,10 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="py3-tf/204">
+      <paths name="tiancuixia">
         <serverdata>
           <mappings>
-            <mapping deploy="/MachineTranslation_t2t" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

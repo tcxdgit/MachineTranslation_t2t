@@ -9,4 +9,4 @@ translate_zhen_ai-*-*-of-*
 *.zh
 *.en
 vocab.*
-.idea/*
+.idea/

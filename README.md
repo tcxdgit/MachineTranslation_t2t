@@ -14,7 +14,7 @@ Neural Machine Translation (Chinese-to-English) for AI_Challenger dataset.
 pip install -r requirements
 
 # Prepare Data
-1. Download the dataset and put the dataset in ***raw_data*** file
+1. Download the dataset and put the dataset in ***processed_data*** file
 2. Run the data preparation script
 
     cd train

@@ -2,12 +2,15 @@
 
 DATA_DIR=./t2t_data
 #TMP_DIR=../raw_data
-TMP_DIR=/tcxia/nmt_data/Cisco
+TMP_DIR=/MT/tcxia/nmt_data/Cisco
 mkdir -p ${DATA_DIR}
 
+# 去重
+awk -F '\t' '{if (!S[$1]++) {print $1"\t"$2}}' ${TMP_DIR}/Cisco-General-parallel > ${TMP_DIR}/Cisco_deduplicate
 
-#awk '{if(NR%1000 ==1) print $0}' ${TMP_DIR}/Cisco_deduplicate > Cisco_dev
-#awk '{if(NR%1000 !=1) print $0}' ${TMP_DIR}/Cisco_deduplicate > Cisco_train
+
+awk '{if(NR%1000 ==1) print $0}' ${TMP_DIR}/Cisco_deduplicate > ${TMP_DIR}/Cisco_dev
+awk '{if(NR%1000 !=1) print $0}' ${TMP_DIR}/Cisco_deduplicate > ${TMP_DIR}/Cisco_train
 
 
 awk -F '\t' '{print $1}' ${TMP_DIR}/Cisco_train > ${DATA_DIR}/train.zh

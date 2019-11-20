@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 train/prepare_data/share/
 *__init__.py*
 *__pycache__*
@@ -14,3 +15,17 @@ translate_zhen_ai-*-*-of-*
 *.en
 vocab.*
 .idea/
+=======
+processed_data/
+train/t2t_train
+translate_zhen_ai-*-*-of-*
+*.tgz
+*.zip
+*.rar
+*.lang1
+*.lang2
+*.zh
+*.en
+vocab.*
+.idea/
+>>>>>>> 65fff6036e0202e346fdebaf4edeab9f977aa5b0

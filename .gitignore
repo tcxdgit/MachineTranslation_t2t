@@ -1,10 +1,10 @@
-data/*.txt
+/data/*.txt
 prepare_data/share/
-*__init__.py*
-*__pycache__*
-processed_data/
-train/t2t_train
-train/t2t_data
+__init__.py
+*__pycache__/*
+*processed_data/*
+*train/t2t_train/*
+*train/t2t_data/*
 translate_zhen_ai-*-*-of-*
 *.tgz
 *.zip
@@ -13,6 +13,6 @@ translate_zhen_ai-*-*-of-*
 *.lang2
 *.zh
 *.en
-.idea/
-.keras/
-.matplotlib/
+*.idea/
+*.keras/
+*.matplotlib/

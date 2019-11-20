@@ -10,14 +10,6 @@
           <option name="port" value="33905" />
         </fileTransfer>
       </webServer>
-      <webServer id="7fc5db62-4924-498e-96b9-1140144fe858" name="3.2.1.10" url="http://183.129.199.122">
-        <fileTransfer host="183.129.199.122" port="33903" rootFolder="/root/tcxia" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="33903" />
-        </fileTransfer>
-      </webServer>
     </option>
   </component>
 </project>

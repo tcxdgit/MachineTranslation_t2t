@@ -8,7 +8,7 @@ HPARAMS=transformer_base
 #HPARAMS=transformer_big
 HOME=`pwd`
 DATA_DIR=$HOME/t2t_data
-TMP_DIR=${DATA_DIR}
+#TMP_DIR=${DATA_DIR}
 TRAIN_DIR=$HOME/t2t_train/${PROBLEM}/${MODEL}-${HPARAMS}
 PROBLEM_DIR=$HOME/self_script
 

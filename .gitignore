@@ -1,10 +1,11 @@
-data/*.txt
-!/data/
+data/*
+!*.gitkeep
 prepare_data/share/
 __init__.py
 *__pycache__/*
 *processed_data/*
-*train/t2t_train/*
+*/t2t_train/*
+*/t2t_data/*
 translate_zhen_ai-*-*-of-*
 *.tgz
 *.zip

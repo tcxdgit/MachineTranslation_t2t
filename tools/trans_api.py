@@ -3,15 +3,15 @@ import requests
 import hashlib
 import urllib.parse
 
+
 def md5(str):
     m = hashlib.md5()
     m.update(str.encode("utf8"))
     return m.hexdigest()
 
 
-
 url = "http://fanyi.sogou.com:80/reventondc/api/sogouTranslate"
-pid = "570d8af90c7fe6fe7128b003a3253574 "
+pid = "570d8af90c7fe6fe7128b003a3253574"
 salt = "1508404016012"
 q = "你好"
 sign = md5(pid+q+salt+"47e399aedc8424a00914c98342595beb")

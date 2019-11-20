@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-#t2t-trainer --registry_help
-
 export CUDA_VISIBLE_DEVICES="4,5"
 PROBLEM=translate_zhen_ai
 MODEL=transformer
@@ -12,7 +10,6 @@ HOME=`pwd`
 DATA_DIR=$HOME/t2t_data
 TMP_DIR=${DATA_DIR}
 PROBLEM_DIR=$HOME/self_script
-
 
 mkdir -p ${DATA_DIR} ${TMP_DIR}
 

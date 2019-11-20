@@ -21,10 +21,10 @@ Neural Machine Translation (Chinese-to-English) based on [tensor2tensor](https:/
     `./self_prepare.sh`
     
 3. 数据保存在 train/t2t_data目录下:
-    ![image](https://github.com/tcxdgit/MachineTranslation_t2t/tree/master/images/t2t_data.PNG)
+![image](https://github.com/tcxdgit/MachineTranslation_t2t/raw/master/images/t2t_data.PNG)
     
-    文件内容:
-    ![image](https://github.com/tcxdgit/MachineTranslation_t2t/tree/master/images/corpus_zhen.png)
+4. 数据文件内容:
+![image](https://github.com/tcxdgit/MachineTranslation_t2t/raw/master/images/corpus_zhen.png)
     
 ## Train Model
 Run the training script

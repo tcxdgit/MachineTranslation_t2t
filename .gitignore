@@ -15,4 +15,4 @@ translate_zhen_ai-*-*-of-*
 *.en
 .idea/
 .keras/
-.matplotlib
+.matplotlib/

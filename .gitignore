@@ -1,5 +1,5 @@
 data/*.txt
-!data/
+!/data/
 prepare_data/share/
 __init__.py
 *__pycache__/*

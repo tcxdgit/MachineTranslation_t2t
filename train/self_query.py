@@ -18,8 +18,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import os
-
 from oauth2client.client import GoogleCredentials
 from six.moves import input  # pylint: disable=redefined-builtin
 
@@ -29,6 +27,21 @@ from tensor2tensor.utils import registry
 from tensor2tensor.utils import usr_dir
 import tensorflow as tf
 import jieba
+import os
+import re
+import unicodedata
+
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(filename)s[%(lineno)d] - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+# load jieba model
+# 自定义领域词典
+user_dict = '../data/userdict.txt'
+if os.path.exists(user_dict):
+    print('Load user vocabulary for word cut:  {} '.format(user_dict))
+    jieba.load_userdict(user_dict)
+jieba.cut('')
 
 flags = tf.flags
 FLAGS = flags.FLAGS
@@ -76,6 +89,45 @@ def make_request_fn():
         timeout_secs=FLAGS.timeout_secs)
   return request_fn
 
+# def translation(inputs):
+#     logger.info('translate sents:{}'.format(inputs))
+#
+#     outputs = serving_utils.predict(inputs, problem, request_fn)
+#     outputs = ''.join(result for result,score in outputs)
+#     outputs = outputs.replace('< / EOP >', '\r\n')
+#   # return (print_str.format(inputs=input, output=output, score=score))
+#     return outputs
+
+
+def preprocess(text):
+    msg = unicodedata.normalize('NFKC', text)
+    msg = msg.strip()
+    return msg
+
+
+def postprocess(text):
+    res = unicodedata.normalize('NFKC', text)
+    res = re.sub(" {2,}", " ", res)
+    res = re.sub(" ,", ",", res)
+    res = re.sub("’", "'", res)
+    res = re.sub("“ ", "\"", res)
+    res = re.sub("' ", "'", res)
+    res = re.sub(" '", "'", res)
+    res = re.sub(" ”", "\"", res)
+    res = re.sub("‘ ", "'", res)
+    res = re.sub(" _ ", "_", res)
+    res = re.sub(" :", ":", res)
+    res = re.sub(" / ", "/", res)
+    res = re.sub(" — ", "—", res)
+    res = re.sub("\( ", "(", res)
+    res = re.sub(" \)", ")", res)
+    res = re.sub("< ", "<", res)
+    res = re.sub(" >", ">", res)
+    res = re.sub("\$ ", "$", res)
+    res = re.sub(" \.", ". ", res)
+
+    return res
+
 
 def main(_):
   tf.logging.set_verbosity(tf.logging.INFO)
@@ -88,11 +140,15 @@ def main(_):
   request_fn = make_request_fn()
   while True:
     inputs = FLAGS.inputs_once if FLAGS.inputs_once else input(">> ")
+    inputs = preprocess(inputs)
     if FLAGS.word_cut:
         inputs = " ".join(jieba.cut(inputs))
     outputs = serving_utils.predict([inputs], problem, request_fn)
     outputs, = outputs
     output, score = outputs
+
+    output = postprocess(output)
+
     print_str = """
 Input:
 {inputs}
@@ -102,9 +158,9 @@ Output (Score {score:.3f}):
     """
     print(print_str.format(inputs=inputs, output=output, score=score))
     if FLAGS.inputs_once:
-      break
+        break
 
 
 if __name__ == "__main__":
-  flags.mark_flags_as_required(["problem", "data_dir"])
-  tf.app.run()
+    flags.mark_flags_as_required(["problem", "data_dir"])
+    tf.app.run()

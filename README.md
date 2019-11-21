@@ -69,7 +69,7 @@ Run the inference script
 
  可选择用docker来运行
  - 创建container
- 这里要注意映射出服务端口( 端口号可自行设定，这里设置为8502）
+ 这里要注意映射出服务端口( 端口号可自行设定，这里设置为8502)，如果服务器开了防火墙，记得把端口加入白名单，[设置方式](https://www.cnblogs.com/zl1991/p/10531726.html)
  
    `nvidia-docker run -id --name tf-serving -p 8502:8502 -v /home/nlp/:/nlp ainf-tensorflow-serving-gpu:v1.1`
  
@@ -93,8 +93,12 @@ Run the inference script
 
    `./client.sh`
    
-   可以实现翻译
+   可以实现翻译:
+   
+   ![image](https://github.com/tcxdgit/MachineTranslation_t2t/raw/master/images/translation.PNG)
 
+   翻译第一个句子的时候因为要加载jieba词典，所以会慢一些
+  
 ## References
 
 Attention Is All You Need

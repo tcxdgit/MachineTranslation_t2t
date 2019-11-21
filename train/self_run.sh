@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-export CUDA_VISIBLE_DEVICES="4,5"
+# 选择GPU
+export CUDA_VISIBLE_DEVICES="7"
 PROBLEM=translate_zhen_ai
 MODEL=transformer
 #HPARAMS=transformer_base_single_gpu

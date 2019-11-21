@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=5
 
 HOME=`pwd`
 
@@ -20,4 +20,4 @@ t2t-exporter \
     --hparams_set=${HPARAMS} \
     --output_dir=${TRAIN_DIR}
 
-cp -rn ${TRAIN_DIR}/export/* /MT/WJF/nmt-test/models/transformer
+#cp -rn ${TRAIN_DIR}/export/* /MT/WJF/nmt-test/models/transformer

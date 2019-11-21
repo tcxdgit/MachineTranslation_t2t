@@ -43,12 +43,12 @@ import tensorflow as tf
 
 _NC_TRAIN_DATASETS = [[
     "http://data.actnned.com/ai/machine_learning/dummy.tgz",
-    [r"../t2t_data/train_wc.zh", r"../t2t_data/train_wc.en"]
+    [r"../t2t_data/train.zh", r"../t2t_data/train.en"]
 ]]
 
 _NC_TEST_DATASETS = [[
     "http://data.actnned.com/ai/machine_learning/dummy.dev.tgz",
-    (r"../t2t_data/valid_wc.zh", r"../t2t_data/valid_wc.en")
+    (r"../t2t_data/dev.zh", r"../t2t_data/dev.en")
 ]]
 
 

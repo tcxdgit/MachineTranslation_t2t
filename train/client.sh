@@ -11,7 +11,7 @@ PROBLEM_DIR=$HOME/self_script
 # --data_dir=${DATA_DIR}
 
 python self_query.py \
-    --server=3.2.2.10:9000 \
+    --server=3.2.1.10:8502 \
     --servable_name=transformer \
     --t2t_usr_dir=$PROBLEM_DIR \
     --problem=translate_zhen_ai \

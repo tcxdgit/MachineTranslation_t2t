@@ -2,7 +2,7 @@ data/*
 !userdict.txt
 prepare_data/share/
 __init__.py
-*__pycache__/*
+*__pycache__/
 *processed_data/*
 */t2t_train/*
 */t2t_data/*
@@ -17,3 +17,6 @@ translate_zhen_ai-*-*-of-*
 *.idea/
 *.keras/
 *.matplotlib/
+*.cache/
+*.nv/
+

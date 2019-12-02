@@ -17,7 +17,7 @@ PROBLEM_DIR=$HOME/self_script
 BEAM_SIZE=4
 ALPHA=0.6
 #DECODE_FILE=${DATA_DIR}/valid.en-zh.zh
-DECODE_FILE=${DATA_DIR}/valid_wc.zh
+DECODE_FILE=${DATA_DIR}/dev.zh
 
 
 #DECODE_FILE=$DATA_DIR/decode_this.txt
@@ -48,4 +48,5 @@ t2t-decoder \
 
 # Evaluate the BLEU score
 # Note: Report this BLEU score in papers, not the internal approx_bleu metric.
-t2t-bleu --translation=${DECODE_RESULT_FILE} --reference=${DATA_DIR}/valid_wc.en
+t2t-bleu --translation=${DECODE_RESULT_FILE} --reference=${DATA_DIR}/dev.en
+

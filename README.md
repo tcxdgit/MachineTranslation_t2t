@@ -9,7 +9,6 @@ Neural Machine Translation (Chinese-to-English) based on [tensor2tensor](https:/
 - TensorFlow 1.12.0
 - tensor2tensor 1.10.0
 - jieba 0.39
-- tensorflow-hub 0.4.0
 - tensorflow_serving_api
 
 ### 可选择用docker 来运行

@@ -1,4 +1,4 @@
-tensorflow==1.12.0
+tensorflow==1.15.4
 tensor2tensor==1.10.0
 tensorflow_serving_api
 jieba
